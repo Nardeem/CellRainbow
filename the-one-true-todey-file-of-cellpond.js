@@ -143,7 +143,7 @@ const makeCell = ({x=0, y=0, width=1, height=1, colour=112} = {}) => {
 
 	const centerX = left + width/2
 	const centerY = top + height/2
-
+	const rgb = `hsl(${red}, ${green}, ${blue})`
 	const sections = []
 	const lastDraw = undefined
 	//const lastDrawCount = 1
